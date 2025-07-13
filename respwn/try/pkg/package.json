@@ -1,0 +1,15 @@
+{
+  "name": "spwn-web",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "spwn_web_bg.wasm",
+    "spwn_web.js",
+    "spwn_web.d.ts"
+  ],
+  "main": "spwn_web.js",
+  "types": "spwn_web.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

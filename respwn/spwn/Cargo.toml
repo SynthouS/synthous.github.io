@@ -27,15 +27,6 @@ clap = "3.0.5"
 internment = "0.5.4"
 ariadne = "0.1.3" # errors
 
-
-parser = { path = "../parser" }
-shared = { path = "../shared" }
-errors = { path = "../errors" }
-editorlive = { path = "../editorlive" }
-compiler = { path = "../compiler" }
-optimizer = { path = "../optimizer" }
-docgen = { path = "../docgen" }
-
 [dev-dependencies]
 criterion = "0.3.5"
 
@@ -44,7 +35,5 @@ harness = false
 name = "time"
 
 [target.'cfg(not(target_arch = "wasm32"))'.dependencies]
-levelstring = { path = "../levelstring" }
-pckp = { path = "../pckp" }
 
 # heat dir libraries -o wix/libraries.wxs -scom -frag -srd -sreg -gg -cg libraries -dr LIB_DIR -suid

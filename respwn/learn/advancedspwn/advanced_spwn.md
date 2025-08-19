@@ -1,3 +1,0 @@
-# Coming at some point...
-
-[**Next page**](advancedspwn/1types.md)
